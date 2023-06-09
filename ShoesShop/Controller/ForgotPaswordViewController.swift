@@ -15,10 +15,14 @@ class ForgotPasswordViewController: UIViewController, UITextFieldDelegate {
   
     @IBOutlet weak var retypePasswordField: UITextField!
     
+    @IBOutlet weak var submitRadius: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
       
-    
+        changeCornerRad(submitRadius)
+        changeCornerRad(emailTextField)
+        changeCornerRad(changePassword)
+        changeCornerRad(retypePasswordField)
     }
     func changeCornerRad(_ input: AnyObject) {
         input.layer?.cornerRadius = 8
@@ -31,9 +35,10 @@ class ForgotPasswordViewController: UIViewController, UITextFieldDelegate {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToProfile" {
-            if let profileViewController  = segue.destination as? ProfileViewController{
+            if let profileViewController  = segue.destination as? ProfileViewController {
                 let user = User(email: emailTextField.text, pasword: changePassword.text, retypePassword: retypePasswordField.text)
                 profileViewController.email = user.email ?? ""
+                profileViewController.retypePassword = user.retypePassword ?? ""
                 
             }
         }

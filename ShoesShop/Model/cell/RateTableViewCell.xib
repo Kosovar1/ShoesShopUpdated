@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RateTableViewCell" rowHeight="500" id="KGk-i7-Jjw" customClass="RateTableViewCell" customModule="ShoesShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="435" height="450"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="435" height="450"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mgj-YC-pBR">
+                        <rect key="frame" x="0.0" y="0.0" width="385" height="154"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Mgj-YC-pBR" secondAttribute="height" multiplier="1:0.4" id="iTt-0p-iFR"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6F3-mI-Rur">
+                        <rect key="frame" x="20" y="152" width="395" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8V-7u-aiM">
+                                <rect key="frame" x="0.0" y="0.0" width="395" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="fRH-Np-42p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="EQP-Gb-dMN">
+                        <rect key="frame" x="0.0" y="189" width="435" height="34.333333333333343"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgQ-bW-WX4">
+                                <rect key="frame" x="0.0" y="0.0" width="141.33333333333334" height="34.333333333333336"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141.33333333333334" id="mMP-Ov-NC6"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system" title=" "/>
+                                <connections>
+                                    <action selector="favoriteButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="eiL-aZ-MXO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d89-9z-MbR">
+                                <rect key="frame" x="144.33333333333334" y="0.0" width="141.00000000000003" height="34.333333333333336"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141.00000000000003" id="PSo-tz-7sO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="star" catalog="system" title=" "/>
+                                <connections>
+                                    <action selector="rateButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="4HY-kp-48t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEo-B4-Txh" userLabel="SeaPhoto">
+                                <rect key="frame" x="288.33333333333331" y="0.0" width="146.66666666666669" height="34.333333333333336"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="chevron.forward.circle" catalog="system" title=" "/>
+                                <connections>
+                                    <action selector="getStartedPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="G0J-N6-4rF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="6F3-mI-Rur" secondAttribute="trailing" id="8lW-Rt-iyW"/>
+                    <constraint firstItem="EQP-Gb-dMN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="AXG-ND-tg8"/>
+                    <constraint firstAttribute="trailing" secondItem="EQP-Gb-dMN" secondAttribute="trailing" id="OTa-9j-ruW"/>
+                    <constraint firstItem="Mgj-YC-pBR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="P8r-dJ-mdr"/>
+                    <constraint firstItem="6F3-mI-Rur" firstAttribute="top" secondItem="Mgj-YC-pBR" secondAttribute="bottom" constant="-2" id="gnw-vz-4rD"/>
+                    <constraint firstItem="EQP-Gb-dMN" firstAttribute="top" secondItem="6F3-mI-Rur" secondAttribute="bottom" constant="2" id="hvH-x4-FhU"/>
+                    <constraint firstAttribute="trailing" secondItem="Mgj-YC-pBR" secondAttribute="trailing" constant="50" id="mH5-LY-tP9"/>
+                    <constraint firstItem="Mgj-YC-pBR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ufz-a5-EeD"/>
+                    <constraint firstItem="6F3-mI-Rur" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="vxg-Mf-MGN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addToFavoriteButton" destination="QgQ-bW-WX4" id="5hj-qf-fr7"/>
+                <outlet property="imageView" destination="Mgj-YC-pBR" id="bVh-M2-SyI"/>
+                <outlet property="rateButton" destination="d89-9z-MbR" id="aqs-4B-IYl"/>
+                <outlet property="timeToPrepareLabel" destination="g8V-7u-aiM" id="WFh-EG-8h2"/>
+            </connections>
+            <point key="canvasLocation" x="183.96946564885496" y="38.028169014084511"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.forward.circle" catalog="system" width="128" height="123"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="star" catalog="system" width="128" height="116"/>
+    </resources>
+</document>

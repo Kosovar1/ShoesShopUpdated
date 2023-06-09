@@ -14,3 +14,4 @@ struct User {
     var pasword: String?
     var retypePassword: String?
 }
+

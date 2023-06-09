@@ -7,20 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890E548D29F0F4590073B114 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E548C29F0F4590073B114 /* GestureViewController.swift */; };
+		892D044629F5A8F1009A4F72 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892D044529F5A8F1009A4F72 /* ScrollViewController.swift */; };
+		892D044829F5AB6E009A4F72 /* AnimationMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892D044729F5AB6E009A4F72 /* AnimationMenuViewController.swift */; };
+		893122AA29F271AF007076E9 /* FramesBoundsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893122A929F271AF007076E9 /* FramesBoundsController.swift */; };
+		893AAFB229FFB7AC0008F4C5 /* CoreDataToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 893AAFB029FFB7AC0008F4C5 /* CoreDataToDoList.xcdatamodeld */; };
+		893AAFDD2A010E3A0008F4C5 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AAFDC2A010E3A0008F4C5 /* ToDoListViewController.swift */; };
+		896298B629FACD8A007D9E3D /* HorizontallScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896298B529FACD8A007D9E3D /* HorizontallScrollViewController.swift */; };
+		8973286C2A2629B7009DF715 /* TetrrisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8973286B2A2629B7009DF715 /* TetrrisViewController.swift */; };
+		89734B7929F4162C003793AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89734B7829F4162C003793AA /* Message.swift */; };
+		89734B7B29F4167E003793AA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89734B7A29F4167E003793AA /* ChatViewController.swift */; };
+		89734B7E29F41CDC003793AA /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89734B7C29F41CDC003793AA /* MessageCell.swift */; };
+		89734B7F29F41CDC003793AA /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89734B7D29F41CDC003793AA /* MessageCell.xib */; };
+		89734B8129F42BF5003793AA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89734B8029F42BF5003793AA /* Constant.swift */; };
+		89734B8329F4DA86003793AA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89734B8229F4DA86003793AA /* MapViewController.swift */; };
+		897ED70F29F726FA0043F6DA /* ShoesGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897ED70E29F726FA0043F6DA /* ShoesGalleryViewController.swift */; };
+		89A334A92A0BB5F5004F3496 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A334A82A0BB5F5004F3496 /* RateViewController.swift */; };
+		89A334AE2A0BB667004F3496 /* RateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A334AC2A0BB667004F3496 /* RateTableViewCell.swift */; };
+		89A334AF2A0BB667004F3496 /* RateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A334AD2A0BB667004F3496 /* RateTableViewCell.xib */; };
+		89A334B12A0BB9B5004F3496 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A334B02A0BB9B5004F3496 /* Recipe.swift */; };
+		89A334B32A17AC6E004F3496 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A334B22A17AC6E004F3496 /* WeatherManager.swift */; };
+		89A334B52A1985C2004F3496 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A334B42A1985C2004F3496 /* WeatherData.swift */; };
+		89A334B72A198F97004F3496 /* weatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A334B62A198F97004F3496 /* weatherModel.swift */; };
 		89C0D29229981D2600C0FC76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C0D29129981D2600C0FC76 /* AppDelegate.swift */; };
 		89C0D29429981D2600C0FC76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C0D29329981D2600C0FC76 /* SceneDelegate.swift */; };
 		89C0D29629981D2600C0FC76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C0D29529981D2600C0FC76 /* ViewController.swift */; };
 		89C0D29929981D2600C0FC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C0D29729981D2600C0FC76 /* Main.storyboard */; };
 		89C0D29B29981D2700C0FC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C0D29A29981D2700C0FC76 /* Assets.xcassets */; };
 		89C0D29E29981D2700C0FC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C0D29C29981D2700C0FC76 /* LaunchScreen.storyboard */; };
+		89C3F1252A03AC9600153777 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3F1242A03AC9600153777 /* Item.swift */; };
+		89C3F1272A046ECC00153777 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3F1262A046ECC00153777 /* InformationViewController.swift */; };
+		89C3F1292A052CD100153777 /* TicTacGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3F1282A052CD100153777 /* TicTacGameViewController.swift */; };
 		89D5AD3C29BB79EF00454C99 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5AD3B29BB79EF00454C99 /* SignUpViewController.swift */; };
 		89D5AD3E29BB7B3C00454C99 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5AD3D29BB7B3C00454C99 /* HomeViewController.swift */; };
 		89D5AD4029BB7B6300454C99 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5AD3F29BB7B6300454C99 /* ProfileViewController.swift */; };
 		89D5AD4229BB7BA400454C99 /* ForgotPaswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5AD4129BB7BA400454C99 /* ForgotPaswordViewController.swift */; };
 		89D5AD4429BBD88100454C99 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D5AD4329BBD88100454C99 /* Data.swift */; };
+		89EA8F5929F34C7D00DDD949 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89EA8F5829F34C7D00DDD949 /* GoogleService-Info.plist */; };
+		A12A54CC592E129005829DD6 /* Pods_ShoesShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFA7435BA764B668C95E9FD /* Pods_ShoesShop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23451CA83A18007A16F32B38 /* Pods-ShoesShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoesShop.release.xcconfig"; path = "Target Support Files/Pods-ShoesShop/Pods-ShoesShop.release.xcconfig"; sourceTree = "<group>"; };
+		890E548C29F0F4590073B114 /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
+		892D044529F5A8F1009A4F72 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		892D044729F5AB6E009A4F72 /* AnimationMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationMenuViewController.swift; sourceTree = "<group>"; };
+		893122A929F271AF007076E9 /* FramesBoundsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesBoundsController.swift; sourceTree = "<group>"; };
+		893AAFB129FFB7AC0008F4C5 /* CoreDataToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataToDoList.xcdatamodel; sourceTree = "<group>"; };
+		893AAFDC2A010E3A0008F4C5 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		896298B529FACD8A007D9E3D /* HorizontallScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallScrollViewController.swift; sourceTree = "<group>"; };
+		8973286B2A2629B7009DF715 /* TetrrisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrrisViewController.swift; sourceTree = "<group>"; };
+		89734B7829F4162C003793AA /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		89734B7A29F4167E003793AA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		89734B7C29F41CDC003793AA /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		89734B7D29F41CDC003793AA /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		89734B8029F42BF5003793AA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		89734B8229F4DA86003793AA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		897ED70E29F726FA0043F6DA /* ShoesGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesGalleryViewController.swift; sourceTree = "<group>"; };
+		89A334A82A0BB5F5004F3496 /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		89A334AC2A0BB667004F3496 /* RateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTableViewCell.swift; sourceTree = "<group>"; };
+		89A334AD2A0BB667004F3496 /* RateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateTableViewCell.xib; sourceTree = "<group>"; };
+		89A334B02A0BB9B5004F3496 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		89A334B22A17AC6E004F3496 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		89A334B42A1985C2004F3496 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		89A334B62A198F97004F3496 /* weatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherModel.swift; sourceTree = "<group>"; };
 		89C0D28E29981D2600C0FC76 /* ShoesShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoesShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C0D29129981D2600C0FC76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89C0D29329981D2600C0FC76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,11 +79,17 @@
 		89C0D29A29981D2700C0FC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89C0D29D29981D2700C0FC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C0D29F29981D2700C0FC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C3F1242A03AC9600153777 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		89C3F1262A046ECC00153777 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		89C3F1282A052CD100153777 /* TicTacGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacGameViewController.swift; sourceTree = "<group>"; };
 		89D5AD3B29BB79EF00454C99 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		89D5AD3D29BB7B3C00454C99 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		89D5AD3F29BB7B6300454C99 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		89D5AD4129BB7BA400454C99 /* ForgotPaswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPaswordViewController.swift; sourceTree = "<group>"; };
 		89D5AD4329BBD88100454C99 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		89EA8F5829F34C7D00DDD949 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0F3BA7784C141915B30FE38 /* Pods-ShoesShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoesShop.debug.xcconfig"; path = "Target Support Files/Pods-ShoesShop/Pods-ShoesShop.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFA7435BA764B668C95E9FD /* Pods_ShoesShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoesShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +97,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12A54CC592E129005829DD6 /* Pods_ShoesShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FEC2FE5D837377C6CFF6000 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0F3BA7784C141915B30FE38 /* Pods-ShoesShop.debug.xcconfig */,
+				23451CA83A18007A16F32B38 /* Pods-ShoesShop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		87802C421AB3AB4042C9BCE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDFA7435BA764B668C95E9FD /* Pods_ShoesShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		893AAFAF29FFB73B0008F4C5 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				893AAFB029FFB7AC0008F4C5 /* CoreDataToDoList.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		89A334AA2A0BB622004F3496 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				89A334AC2A0BB667004F3496 /* RateTableViewCell.swift */,
+				89A334AD2A0BB667004F3496 /* RateTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		89C0D28529981D2600C0FC76 = {
 			isa = PBXGroup;
 			children = (
 				89C0D29029981D2600C0FC76 /* ShoesShop */,
 				89C0D28F29981D2600C0FC76 /* Products */,
+				6FEC2FE5D837377C6CFF6000 /* Pods */,
+				87802C421AB3AB4042C9BCE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,13 +159,15 @@
 		89C0D29029981D2600C0FC76 /* ShoesShop */ = {
 			isa = PBXGroup;
 			children = (
-				89D5AD3629BB6C9400454C99 /* Model */,
-				89D5AD3529BB6C9100454C99 /* View */,
-				89D5AD3429BB6C8E00454C99 /* Controller */,
 				89C0D29129981D2600C0FC76 /* AppDelegate.swift */,
 				89C0D29329981D2600C0FC76 /* SceneDelegate.swift */,
+				89D5AD3629BB6C9400454C99 /* Model */,
+				893AAFAF29FFB73B0008F4C5 /* DataModel */,
+				89D5AD3529BB6C9100454C99 /* View */,
+				89D5AD3429BB6C8E00454C99 /* Controller */,
 				89C0D29A29981D2700C0FC76 /* Assets.xcassets */,
 				89C0D29F29981D2700C0FC76 /* Info.plist */,
+				89EA8F5829F34C7D00DDD949 /* GoogleService-Info.plist */,
 			);
 			path = ShoesShop;
 			sourceTree = "<group>";
@@ -85,6 +180,19 @@
 				89D5AD3B29BB79EF00454C99 /* SignUpViewController.swift */,
 				89D5AD3F29BB7B6300454C99 /* ProfileViewController.swift */,
 				89D5AD4129BB7BA400454C99 /* ForgotPaswordViewController.swift */,
+				890E548C29F0F4590073B114 /* GestureViewController.swift */,
+				893122A929F271AF007076E9 /* FramesBoundsController.swift */,
+				89734B7A29F4167E003793AA /* ChatViewController.swift */,
+				89734B8229F4DA86003793AA /* MapViewController.swift */,
+				892D044529F5A8F1009A4F72 /* ScrollViewController.swift */,
+				892D044729F5AB6E009A4F72 /* AnimationMenuViewController.swift */,
+				897ED70E29F726FA0043F6DA /* ShoesGalleryViewController.swift */,
+				896298B529FACD8A007D9E3D /* HorizontallScrollViewController.swift */,
+				893AAFDC2A010E3A0008F4C5 /* ToDoListViewController.swift */,
+				89C3F1262A046ECC00153777 /* InformationViewController.swift */,
+				89C3F1282A052CD100153777 /* TicTacGameViewController.swift */,
+				89A334A82A0BB5F5004F3496 /* RateViewController.swift */,
+				8973286B2A2629B7009DF715 /* TetrrisViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,6 +202,8 @@
 			children = (
 				89C0D29729981D2600C0FC76 /* Main.storyboard */,
 				89C0D29C29981D2700C0FC76 /* LaunchScreen.storyboard */,
+				89734B7C29F41CDC003793AA /* MessageCell.swift */,
+				89734B7D29F41CDC003793AA /* MessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,7 +211,15 @@
 		89D5AD3629BB6C9400454C99 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				89A334AA2A0BB622004F3496 /* cell */,
+				89734B8029F42BF5003793AA /* Constant.swift */,
 				89D5AD4329BBD88100454C99 /* Data.swift */,
+				89734B7829F4162C003793AA /* Message.swift */,
+				89C3F1242A03AC9600153777 /* Item.swift */,
+				89A334B02A0BB9B5004F3496 /* Recipe.swift */,
+				89A334B22A17AC6E004F3496 /* WeatherManager.swift */,
+				89A334B42A1985C2004F3496 /* WeatherData.swift */,
+				89A334B62A198F97004F3496 /* weatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89C0D2A229981D2700C0FC76 /* Build configuration list for PBXNativeTarget "ShoesShop" */;
 			buildPhases = (
+				4137E3D0456E303F2F2E5701 /* [CP] Check Pods Manifest.lock */,
 				89C0D28A29981D2600C0FC76 /* Sources */,
 				89C0D28B29981D2600C0FC76 /* Frameworks */,
 				89C0D28C29981D2600C0FC76 /* Resources */,
+				2509C370A252E0882BD43C64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,7 +284,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89734B7F29F41CDC003793AA /* MessageCell.xib in Resources */,
+				89A334AF2A0BB667004F3496 /* RateTableViewCell.xib in Resources */,
 				89C0D29E29981D2700C0FC76 /* LaunchScreen.storyboard in Resources */,
+				89EA8F5929F34C7D00DDD949 /* GoogleService-Info.plist in Resources */,
 				89C0D29B29981D2700C0FC76 /* Assets.xcassets in Resources */,
 				89C0D29929981D2600C0FC76 /* Main.storyboard in Resources */,
 			);
@@ -172,19 +295,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2509C370A252E0882BD43C64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShoesShop/Pods-ShoesShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShoesShop/Pods-ShoesShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShoesShop/Pods-ShoesShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4137E3D0456E303F2F2E5701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShoesShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89C0D28A29981D2600C0FC76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C3F1272A046ECC00153777 /* InformationViewController.swift in Sources */,
 				89D5AD3E29BB7B3C00454C99 /* HomeViewController.swift in Sources */,
 				89D5AD3C29BB79EF00454C99 /* SignUpViewController.swift in Sources */,
+				8973286C2A2629B7009DF715 /* TetrrisViewController.swift in Sources */,
+				893AAFB229FFB7AC0008F4C5 /* CoreDataToDoList.xcdatamodeld in Sources */,
+				89A334B72A198F97004F3496 /* weatherModel.swift in Sources */,
+				89734B8129F42BF5003793AA /* Constant.swift in Sources */,
 				89D5AD4229BB7BA400454C99 /* ForgotPaswordViewController.swift in Sources */,
 				89C0D29629981D2600C0FC76 /* ViewController.swift in Sources */,
+				89C3F1252A03AC9600153777 /* Item.swift in Sources */,
+				892D044829F5AB6E009A4F72 /* AnimationMenuViewController.swift in Sources */,
+				897ED70F29F726FA0043F6DA /* ShoesGalleryViewController.swift in Sources */,
+				89A334B32A17AC6E004F3496 /* WeatherManager.swift in Sources */,
 				89C0D29229981D2600C0FC76 /* AppDelegate.swift in Sources */,
 				89D5AD4429BBD88100454C99 /* Data.swift in Sources */,
+				890E548D29F0F4590073B114 /* GestureViewController.swift in Sources */,
+				892D044629F5A8F1009A4F72 /* ScrollViewController.swift in Sources */,
 				89D5AD4029BB7B6300454C99 /* ProfileViewController.swift in Sources */,
+				89A334AE2A0BB667004F3496 /* RateTableViewCell.swift in Sources */,
+				89734B7B29F4167E003793AA /* ChatViewController.swift in Sources */,
+				89734B7929F4162C003793AA /* Message.swift in Sources */,
+				89A334B52A1985C2004F3496 /* WeatherData.swift in Sources */,
+				893122AA29F271AF007076E9 /* FramesBoundsController.swift in Sources */,
+				89A334A92A0BB5F5004F3496 /* RateViewController.swift in Sources */,
+				89C3F1292A052CD100153777 /* TicTacGameViewController.swift in Sources */,
+				896298B629FACD8A007D9E3D /* HorizontallScrollViewController.swift in Sources */,
 				89C0D29429981D2600C0FC76 /* SceneDelegate.swift in Sources */,
+				89734B7E29F41CDC003793AA /* MessageCell.swift in Sources */,
+				89A334B12A0BB9B5004F3496 /* Recipe.swift in Sources */,
+				893AAFDD2A010E3A0008F4C5 /* ToDoListViewController.swift in Sources */,
+				89734B8329F4DA86003793AA /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +514,7 @@
 		};
 		89C0D2A329981D2700C0FC76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F3BA7784C141915B30FE38 /* Pods-ShoesShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -355,6 +544,7 @@
 		};
 		89C0D2A429981D2700C0FC76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23451CA83A18007A16F32B38 /* Pods-ShoesShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -404,6 +594,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		893AAFB029FFB7AC0008F4C5 /* CoreDataToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				893AAFB129FFB7AC0008F4C5 /* CoreDataToDoList.xcdatamodel */,
+			);
+			currentVersion = 893AAFB129FFB7AC0008F4C5 /* CoreDataToDoList.xcdatamodel */;
+			path = CoreDataToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 89C0D28629981D2600C0FC76 /* Project object */;
 }
